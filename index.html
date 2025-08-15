@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udula Karawita | Business Student & Creative Professional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">Udula<span>.</span></a>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#timeline">Journey</a>
+            <a href="#career">Career</a>
+            <a href="#values">Values</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-image"></div>
+        <div class="hero-content">
+            <h1>Udula <span style="color:#d4af37 ;">Karawita</span></h1>
+            <h3>A Business Student with experience in management,<br> operations, and creative direction.</h3>
+            <p>Proven ability to lead diverse teams, manage projects, and deliver exceptional results in creative environments.</p>
+            <div class="btn-box">
+                <a href="#contact" class="btn">Get In Touch</a>
+                <a href="#about" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="pics/aboutme.jpg" alt="Udula Karawita">
+            </div>
+            <div class="about-text">
+                <h3>Who Am I?</h3>
+                <p>I'm Udula Karawita, a second year Bachelor of Commerce (International Business) student at Edith Cowan University. My career interests are towards the creative fields, Management, and a growing focus on AI, automation, and youth empowerment.</p>
+                <p>I've led high-profile creative campaigns, managed cross-functional teams, and performed in Sri Lanka's leading theatre circles, experiences that sharpened my ability to connect ideas with people.</p>
+                <p>Today, my goal is to take advantage of emerging technologies and innovative thinking to create solutions that would increase efficiency in businesses, empower young people, and hopefully make a lasting cultural impact.</p>
+                <a href="https://linkedin.com/in/udula-karawita-b54789293" class="btn" target="_blank">View more on Linkedin</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="video-container">
+            <div class="video-placeholder">
+                <div>
+                    <i class="fas fa-play-circle"></i>
+                    <p>Who is Udula?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="timeline">
+        <h2 class="heading">Life So <span>Far</span></h2>
+        <div class="timeline-container" id="timeline-container">
+            <!-- Timeline items will be loaded from JSON via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Career Orientation Section -->
+    <section class="career-orientation" id="career">
+        <h2 class="heading">Career <span>Orientation</span></h2>
+        <div class="career-container" id="career-container">
+            <!-- Career content will be loaded from JavaScript -->
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values" id="values">
+        <h2 class="heading">My <span>Values</span></h2>
+        <div class="values-container" id="values-container">
+            <!-- Values cards will be loaded from JSON via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container" id="projects-container">
+            <!-- Project cards will be loaded from JSON via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Get In <span>Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>I'm always open to connecting with people who share a passion for creativity, innovation, AI, and youth empowerment. Whether you have a project in mind, an opportunity to collaborate, or just want to start a conversation, I'd love to hear from you.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>udulakarawita@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+94 71 428 7822</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/udula-karawita-b54789293</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm" action="mailto:udulakarawita@gmail.com" method="POST" enctype="text/plain">
+                    <div class="input-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="form-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/udula-karawita-b54789293" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="copyright">© <span id="current-year"></span> Udula Karawita. All Rights Reserved.</p>
+</footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/data.js"></script>
+</body>
+</html>
