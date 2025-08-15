@@ -99,31 +99,32 @@ header {
     color: var(--text);
 }
 
-/* Hero Section */
+/* Hero Section Styles */
 .hero {
+    position: relative;
     min-height: 100vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
-    position: relative;
     overflow: hidden;
 }
 
-.hero-image {
+.hero-image-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://imgur.com/a/test-1-nrHWshl');
-    background-size: cover;
-    background-position: center;
     z-index: -1;
 }
 
-/* Updated overlay to match theme */
-.hero-image::after {
-    content: '';
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -131,9 +132,9 @@ header {
     height: 100%;
     background: linear-gradient(
         to right,
-        rgba(13, 13, 13, 0.9) 0%,       /* --dark with 90% opacity */
-        rgba(13, 13, 13, 0.7) 50%,      /* --dark with 70% opacity */
-        rgba(26, 26, 26, 0.5) 100%      /* --secondary with 50% opacity */
+        rgba(13, 13, 13, 0.9) 0%,
+        rgba(13, 13, 13, 0.7) 50%,
+        rgba(26, 26, 26, 0.5) 100%
     );
     mix-blend-mode: multiply;
 }
